@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import inspect
 
+#Add SE block and light transformer
 # YOLOv8-compatible SE Attention Block
 class SEBlock(nn.Module):
     def __init__(self, c1, c2=None, r=16):  # 输入通道c1，输出通道c2（通常一样）
