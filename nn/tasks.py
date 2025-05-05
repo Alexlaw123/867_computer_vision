@@ -62,6 +62,7 @@ from ultralytics.nn.modules import (
     # VSSBlock,
     # XSSBlock
 )
+#implement these blocks in tasks.py
 from ultralytics.nn.modules.attention import SEBlock, LightTransformerBlock, MyMobileViTBlock
 
 from ultralytics.utils import DEFAULT_CFG_DICT, DEFAULT_CFG_KEYS, LOGGER, colorstr, emojis, yaml_load
